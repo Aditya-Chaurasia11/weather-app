@@ -78,3 +78,30 @@ body{
     
     align-items: center;
 }
+@media (max-width:651px) {
+  
+   #search{
+    font-size: 1rem;
+
+   }
+   .row{
+    font-size: 1rem;
+   }
+    #search{
+        font-size: 1rem;
+        padding: 7px;
+        border-radius: 9px;
+    }
+    .adb{
+        margin: auto 250px; 
+    }
+    #between{
+        margin: 10px 10px;
+        font-size: 1rem;
+    }
+    #location{
+        font-size: 1rem;
+    }
+    
+    
+}
