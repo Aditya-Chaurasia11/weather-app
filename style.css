@@ -24,18 +24,25 @@ body {
   padding: 0 25px;
 }
 #location {
-  background-color: transparent;
+  background-color: skyblue;
   outline: none;
   border: 1px solid gray;
   padding: 12px 20px;
   border-radius: 15px;
   font-size: 1.3rem;
   font-weight: 600;
-  color: skyblue;
+  color: white;
+  box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
 }
 #location:hover {
-  background-color: skyblue;
-  color: white;
+  /* filter: brightness(140%); */
+  background-color: white;
+  color: cyan;
+  cursor: pointer;
+}
+#location:active {
+  transform: translate(0, 0.3rem);
+  box-shadow: 0 0.1rem rgba(125, 125, 125, 0.65);
 }
 .row {
   margin: 15px;
